@@ -15,10 +15,12 @@ Automate deployment every time new code is pushed
 # 🧱 Step-by-Step Guide
 # 🔧 Step 1: Launch EC2 Ubuntu Instance
 Choose Ubuntu (22.04 LTS)
-Allow ports: 22 (SSH), 8080 (Jenkins), and 3000 (Node.js app)
+Allow ports: 22 (SSH), 
+8080 (Jenkins), 
+and 3000 (Node.js app)
 
 # 📦 Step 2: Install Node.js and Git on EC2
-bash
+
 sudo apt update
 sudo apt install -y nodejs npm git
 node -v
